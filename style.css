@@ -1,0 +1,44 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#direct {
+    text-align: center;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+}
+
+#squares {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    background-color: blanchedalmond;
+    margin-bottom: 10px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+}
+
+.gridbox {
+    display: flex;
+    height: 49px;
+    width: 49px;
+    border-style: groove;
+    border-color: black;
+    border-width: 0.5px;
+}
