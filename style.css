@@ -10,13 +10,17 @@ h1 {
     text-align: center;
 }
 
-#btn {
-    display: flex;
-    justify-content: center;
+#erase {
+    padding: 10px 50px;
+    margin: 0px 0px 15px 0px;
+    position: relative;
+    left: 45%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color:beige;
 }
 
 #squares {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
     background-color: blanchedalmond;
     margin-bottom: 10px;
@@ -25,6 +29,7 @@ h1 {
 #container {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 #grid {
